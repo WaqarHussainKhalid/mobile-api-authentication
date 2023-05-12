@@ -1,0 +1,33 @@
+{
+    "name": "waqar/apiauthentication",
+    "description": "A simple modified api authentication",
+    "type": "library",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/WaqarHussainKhalid/mobile-api-authentication"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "waqar\\apiauthentication\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WaqarHussainKhalid",
+            "email": "waqarhussainkhalid@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "waqar\\apiauthentication\\ApiAuthenticationServiceProvider"
+            ]
+        }
+    }
+}
