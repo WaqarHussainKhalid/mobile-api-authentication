@@ -52,7 +52,7 @@ For more information please visit the link: [Laravel Passport](https://laravel.c
 
 1. Add the service provider to `app/config/app.php`
 ```
-waqar\productmanagement\ApiAuthenticationServiceProvider::class,
+waqar\apiauthentication\ApiAuthenticationServiceProvider::class,
 ```
 
 #### Step 2: Setup Database Configuration
